@@ -20,5 +20,5 @@ if not os.path.isfile(data_path):
 if os.path.isfile(file_path):
     print ("File exist")
 else:
-    print ("File not exist")
+    print ("File not exist, creating")
     open(file_path, 'wb').write(r.content)
