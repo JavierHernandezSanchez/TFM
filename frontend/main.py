@@ -1,6 +1,7 @@
 ﻿import streamlit as st
 import tfm_models
 import tfm_exploratory
+import tfm_features
 
 
 pages = {
